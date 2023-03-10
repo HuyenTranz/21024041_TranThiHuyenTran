@@ -1,0 +1,211 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'sarabun', Arial, Helvetica, sans-serif;
+}
+
+#container {
+    display: grid;
+    width: 100%;
+    height: 2820px;
+    grid-template-rows: 60px 450px 1875px 435px;
+}
+
+#header{
+    display: grid;
+    grid-template-columns: 132px 250px auto 250px 132px;
+    height: 60px;
+}
+
+#header_menu {
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header_logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#img_logo {
+    width: 130px;
+    height: 50px;
+}
+
+#header_search {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu_search{
+    margin: 100px auto;
+    width: 300px;
+    height: 50px;
+}
+
+.search{
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+
+.search input#search{
+    width: 300px;
+    height: 40px;
+    border-style: solid;
+    font-size: 10pt;
+    float: left;
+    border-color: rgba(128, 128, 128, 0.3);
+    padding-left: 45px;
+    border-radius: 5px;
+}
+
+#banner {
+    background-image: url('./HinhAnh/banner.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.banner_text1{
+    position: absolute; 
+    top: 158px; 
+    left: 132px; 
+    font-size: 52px; 
+}
+
+.banner_text2{
+    position: absolute; 
+    top: 232px; 
+    left: 132px; 
+    width: 447px; 
+    font-size: 20px; 
+}
+
+
+#footer{
+    display: grid;
+    height: 435px;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: #1D2128FF;
+    grid-template-columns: 132px 160px 160px 160px 270px 426px 132px;
+}
+
+#footer .footer_about, .footer_help, .footer_contact{
+    width: 160px;
+}
+
+#footer .footer_about, .footer_help, .footer_contact, .footer_receive{
+    padding-top: 96px;
+}
+
+.footer_about{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.footer_about .about{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.footer_about ul li{
+    list-style-type: none;
+    color: #fff;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.footer_about .btEnglish{
+    background-color: #1D2128FF;
+    color: #fff;
+    border-radius: 3px;
+    width: 128px;
+    height: 36px;
+}
+
+.footer_help{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.footer_help .help{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.footer_help ul li{
+    list-style-type: none;
+    color: #fff;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.footer_contact{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.footer_contact .contact{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.footer_contact ul li{
+    list-style-type: none;
+    color: #fff;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.footer_receive{
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+
+.footer_receive_text1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+
+.footer_receive_text2{
+    color: #fff;
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+.footer_receive_input .input{
+    background-color: #1D2128FF;
+    color: #9095A0FF;
+    border-style: solid;
+    border-radius: 8px 0 0 8px;
+    border-width: 0.5px;
+    width: 259px;
+    height: 52px;
+    float: left;
+    padding-left: 45px;
+}
+
+.footer_receive_input .button{
+    padding: 0 20px;
+    color: #fff;
+    border-radius: 0 8px 8px 0;
+    font-size: 18px; 
+    border: none;
+    height: 53px;
+    background: rgb(77, 227, 89);
+}
