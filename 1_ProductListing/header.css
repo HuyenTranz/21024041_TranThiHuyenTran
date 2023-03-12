@@ -277,10 +277,10 @@
 .content_top .content_top_search .content_top_search_1 .search_search{
     width: 210px;
     height: 52px;
-    border-style: solid;
+    border: none;
+    border-bottom: 2px solid #459D7A;
     font-size: 18px;
     float: left;
-    border-color: rgba(128, 128, 128, 0.3);
     padding-left: 35px;
     border-radius: 4px;
     opacity: 0.4; 
@@ -382,4 +382,28 @@
 .content_center .column4{
     grid-column-start: 4;
     grid-column-end: 5;
+}
+
+.money1{
+    height: 48px;
+    width: 55px;
+    font-size: 32px;
+    padding-top: 12px;
+    font-weight: bold;
+}
+
+.money2{
+    height: 26px;
+    width: 28px;
+    font-size: 16px;
+    padding-left: 8px;
+    padding-right: 132px;
+    padding-top: 12px;
+    opacity: 0.7;
+}
+
+.bottom{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
 }
