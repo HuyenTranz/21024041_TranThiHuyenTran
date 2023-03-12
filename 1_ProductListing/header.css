@@ -333,3 +333,53 @@
     width: 32px;
     height: 36px;
 }
+
+.content_center {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding-left: 132px;
+    padding-right: 132px;
+    grid-template-columns: 267px 267px 267px 267px;
+    grid-column-gap: 32px;
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between;
+}
+
+.content_center .column1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.content_center .column1 .sanpham1, .sanpham2, .sanpham3, 
+    .sanpham4, .sanpham5, .sanpham6, .sanpham7, .sanpham8{
+    height: 464px;
+    padding-bottom: 72px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 18px; 
+    padding-top: 20px;
+    width: 267px; 
+}
+
+.status{
+    font-size: 14px; 
+    width: 267px; 
+}
+
+.content_center .column2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.content_center .column3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.content_center .column4{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
